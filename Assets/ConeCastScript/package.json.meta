@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a617fb5f0be08c34884943531b96c917
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310101
+  packageName: Cone Cast Script
+  packageVersion: 1.0
+  assetPath: Assets/ConeCastScript/package.json
+  uploadId: 730118

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 22812051ed20b334badfa11e89f266ba
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310101
+  packageName: Cone Cast Script
+  packageVersion: 1.0
+  assetPath: Assets/ConeCastScript/Demo/Materials/bg_mat.mat
+  uploadId: 730118

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 51123448d4c9b734c844302108a4a19b
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310101
+  packageName: Cone Cast Script
+  packageVersion: 1.0
+  assetPath: Assets/ConeCastScript/Demo/Scripts/com.agostonr.cone-cast-demo.asmdef
+  uploadId: 730118

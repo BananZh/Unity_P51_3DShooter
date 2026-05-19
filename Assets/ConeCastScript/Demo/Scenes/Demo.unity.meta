@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c8bc750f5e978a443b61f79376e1f1e9
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310101
+  packageName: Cone Cast Script
+  packageVersion: 1.0
+  assetPath: Assets/ConeCastScript/Demo/Scenes/Demo.unity
+  uploadId: 730118
