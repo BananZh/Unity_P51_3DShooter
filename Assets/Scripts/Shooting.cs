@@ -13,6 +13,9 @@ public class Shooting : MonoBehaviour
     [SerializeField] private float _legHitMult = 0.8f;
     [SerializeField] private AudioSource _audioSource;
 
+    [SerializeField] private float _fireRate = 0.1f;
+    private float _fireTimer = 0f;
+
     void Start()
     {
         _cam1 = Camera.main;
@@ -21,7 +24,12 @@ public class Shooting : MonoBehaviour
 
     void Update()
     {
-        if (_shootAction.WasPressedThisFrame())
+        // if (_shootAction.WasPressedThisFrame())
+        // {
+        //     Shoot();
+        // }
+        _fireTimer += Time.deltaTime;
+        if (_shootAction.IsPressed() && _fireTimer > _fireRate)
         {
             Shoot();
         }
@@ -29,6 +37,7 @@ public class Shooting : MonoBehaviour
 
     void Shoot()
     {
+        _fireTimer = 0;
         _audioSource.Play();
         Ray ray = new Ray(_cam1.transform.position, _cam1.transform.forward);
         if (Physics.Raycast(ray, out RaycastHit hitInfo, _maxDistance))
