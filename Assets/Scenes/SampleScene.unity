@@ -7912,7 +7912,7 @@ Transform:
   m_GameObject: {fileID: 1169143510}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.14608298, z: 0, w: 0.98927236}
-  m_LocalPosition: {x: 109.51172, y: 58.87, z: 225.07013}
+  m_LocalPosition: {x: 109.51172, y: 54.25, z: 220.92}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7979,6 +7979,7 @@ MonoBehaviour:
   _handHitMult: 0.65
   _legHitMult: 0.8
   _audioSource: {fileID: 180226342}
+  _fireRate: 0.1
 --- !u!114 &1169143518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9379,7 +9380,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &2000800908
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9715,7 +9716,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!199 &2137928275
 ParticleSystemRenderer:
   serializedVersion: 7
